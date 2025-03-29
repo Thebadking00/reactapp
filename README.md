@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Componentes creados
+Se creo el componente `register` para poder crear nuestro propio usuario en la aplicacion 
+
+Se creo el componente `login` para poder iniciar sesion en la aplicacion con nuestro usuario si el usuario y  constraseña sean iguales
+
+Se creo el componente `userlist` para poder visualizar los registros dentro de la api
+
