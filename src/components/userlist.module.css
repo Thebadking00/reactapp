@@ -1,0 +1,44 @@
+/* UserList.module.css */
+.tableContainer {
+    width: 80%; /* Ocupa el 80% del ancho de la pantalla */
+    margin: 20px auto; /* Centra la tabla en la pantalla */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .userTable {
+    width: 100%;
+    border-collapse: collapse; /* Elimina espacios entre bordes */
+  }
+  
+  .userTable thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .userTable th,
+  .userTable td {
+    text-align: center; /* Centra el texto en las celdas */
+    padding: 10px 15px;
+    border: 1px solid #ddd; /* Bordes para mejor visibilidad */
+  }
+  
+  .userTable th {
+    font-weight: bold;
+  }
+  
+  .userTable tbody tr:nth-child(odd) {
+    background-color: #f4f4f9; /* Color para las filas impares */
+  }
+  
+  .userTable tbody tr:nth-child(even) {
+    background-color: #e9e9ef; /* Color para las filas pares */
+  }
+  
+  .userTable tbody tr:hover {
+    background-color: #c8e6c9; /* Efecto hover en las filas */
+    cursor: pointer;
+  }
+  
